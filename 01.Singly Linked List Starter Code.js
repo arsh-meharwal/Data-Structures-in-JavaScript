@@ -4,6 +4,13 @@ class Node{
         this.next = null; 
     }
 }
+class SinglyLinkedList{
+    constructor(){
+        this.head = null;
+        this.tail = null;
+        this.length = null;
+    }
+}
 
 var first= new Node ("arsh");
 first.next = new Node("is a winner");
