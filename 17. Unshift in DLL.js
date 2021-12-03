@@ -57,6 +57,7 @@ class doublyLinkedList{
         }
 
     }
+    // unshift means adding a new head
   unshift(val){
         var newNode = new Node(val);
         if(!this.head){
