@@ -112,7 +112,7 @@ class doublyLinkedList{
         }
         else{
             var prevNode = this.get(index-1);
-            var nextNode = this.get(index+1);
+            var nextNode = this.get(index);
             prevNode.next = newNode;
             newNode.prev = prevNode;
             newNode.next = nextNode;
